@@ -1,0 +1,31 @@
+{
+  "name": "socialmedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./public/app.js",
+    "tsc": "tsc -w",
+    "start": "node ./public/app.js"
+  },
+  "author": "Francisco Gustavo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "express-unless": "^0.5.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.2",
+    "mongoose-paginate-v2": "^1.3.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.0",
+    "@types/express-unless": "^0.5.1",
+    "@types/mongoose": "^5.5.7",
+    "@types/morgan": "^1.7.35"
+  }
+}
